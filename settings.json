@@ -1,0 +1,58 @@
+{
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Material Theme Darker High Contrast",
+    "editor.fontFamily": "Operator Mono",
+    "editor.fontSize": 15,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 20,
+    "files.insertFinalNewline": true,
+    "editor.lineHeight": 25,
+    "terminal.integrated.lineHeight": 2,
+    "terminal.integrated.fontSize": 13,
+
+    "python.formatting.autopep8Args": [
+        "W0614"
+    ],
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintArgs": [
+        "--enable=W0614"
+    ],
+    "python.formatting.provider": "black",
+    "python.linting.prospectorArgs": [
+        "-s",
+        "veryhigh"
+    ],
+    "eslint.alwaysShowStatus": true,
+    "python.linting.ignorePatterns": [
+        ".vscode/*.py",
+        "**/site-packages/**/*.py",
+        "*.pyc"
+    ],
+    "editor.rulers": [
+        80,
+        90
+    ],
+    "git.autofetch": true,
+    "files.exclude": {
+        "*.pyc": true,
+        "**/__pycache__/": true,
+        "**/*.pyc": true
+    },
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.inlineValues": true,
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true,
+    "gitlens.codeLens.enabled": true,
+    "gitlens.currentLine.enabled": false,
+    "workbench.fontAliasing": "antialiased",
+    "workbench.colorCustomizations": {
+        "window.activeBorder": "#7CB342",
+        "statusBar.background": "#0d47a1",
+        "statusBar.foreground": "#e7e7e7"
+    },
+
+    "window.zoomLevel": 0,
+    "python.testing.pytestEnabled": true,
+    "python.venvPath": "../venv",
+}
